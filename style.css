@@ -1,0 +1,169 @@
+/* tr,th, td{
+    border: 1px solid blue;
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.art1, .art2, .art3{
+    padding: 10px;
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+    width: 800px;
+    background-color: blue;
+
+} */
+
+/* .art1, .art2, .art3{
+    padding: 10px;
+    border-radius:10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  
+} */
+
+
+
+/* Mobile Design */
+@media screen and ( min-width:162px){
+    
+    *{
+        margin: 0;
+        border: none;
+        padding: 0;
+        cursor: auto;
+    }
+
+    .art1, .art2, .art3{
+        padding: 10px;
+        border-radius:10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        width: 50%;
+        background-color: white;
+    
+    }
+
+    section{
+        background-color: rgb(244, 145, 15);
+        
+    }
+
+    
+.h1st{
+    text-align: center;
+    text-shadow: 2px 2px red;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.art1:hover{
+    background-color: rgb(9, 135, 246);
+    
+}
+
+.art2:hover{
+    background-color: rgb(9, 135, 246);
+}
+
+.art3:hover{
+    background-color: rgb(9, 135, 246);
+}
+
+.b1{
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+
+}
+
+.b1:hover{
+    background-color: blue;
+    color: white;
+}
+
+.butart{
+    width: 170px;
+    margin: auto;
+    margin-top: 10px;
+    /* background-color: brown; */
+}
+}
+
+/* Desktop Design */
+@media screen and ( min-width:600px){
+    *{
+        margin: 0;
+        border: none;
+        padding: 0;
+        cursor: auto;
+    }
+    section{
+        background-color: rgb(244, 145, 15);
+        
+    }
+
+    
+.h1st{
+    text-align: center;
+    text-shadow: 2px 2px red;
+    color: white;
+    padding-top: 10px;
+    font-size: 3vw;
+
+}
+    .art1, .art2, .art3{
+        padding: 10px;
+        border-radius:10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+        width: 500px;
+        background-color: white;
+        
+    
+    }
+    .art1:hover{
+        background-color: rgb(9, 135, 246);
+    }
+
+    .art2:hover{
+        background-color: rgb(9, 135, 246);
+    }
+
+    .art3:hover{
+        background-color: rgb(9, 135, 246);
+    }
+
+    .b1{
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+
+    }
+
+    .b1:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    .butart{
+        text-align: center;
+        width: 170px;
+        margin: auto;
+        margin-top: 10px;
+        /* background-color: brown; */
+    }
+}
